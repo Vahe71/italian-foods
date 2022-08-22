@@ -1,0 +1,516 @@
+@media screen and (max-width: 1350px) {
+    .group1 .container .content .desc {
+        width: 380px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .group6 .pizza {
+        margin-left: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 30px;
+    } 
+    .group1 .container .content .desc {
+        width: 330px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .group1 .container .content .title {
+        max-width: 300px;
+    }
+    .group1 .container .content .desc {
+        width: 270px;
+    }
+    .group2 .container .items {
+        gap: 50px;
+    }
+    .group4 .container .picture {
+        width: 580px;
+        height: 580px;
+    }
+    .group5 .container .picture {
+        width: 580px;
+        height: 580px;
+        margin-left: 0;
+    }
+    .group1 .container .picture {
+        width: 850px;
+        height: 850px;
+        object-fit: contain;
+        right: -30px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .group4 .container .picture, 
+    .group5 .container .picture {
+        width: 540px;
+        height: 540px;
+    }
+    .group6 .pizza .little-pizza {
+        width: 340px;
+        height: 300px;
+        left: 0;
+        bottom: 85px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .group4 .container .picture, 
+    .group5 .container .picture {
+        width: 500px;
+        height: 500px;
+    }
+    .group4 .container .content .title,
+    .group5 .container .content .title {
+        font: bold 50px 'Open Sans', sans-serif;
+    }
+    .group4 .container .content .desc,
+    .group5 .container .content .desc {
+        font: 100 24px "Open-Sans-Medium";
+    }
+}
+@media screen and (max-width: 1100px) {
+    .group1 .container .picture {
+        width: 800px;
+        height: 800px;
+    }
+    .group5 .container .content {
+        max-width: 500px;
+    }
+    .group5 .container .picture {
+        margin-left: 20px;
+    }
+    .group6 .container .right-leaf {
+        width: 550px;
+        height: 550px;
+    }
+    .group6 .container .left-leaf {
+        width: 400px;
+        height: 400px;
+    }
+    .group6 .pizza {
+        width: 800px;
+        height: 800px;
+    }
+    .group8 .container .title {
+        font: 65px 'Open Sans', sans-serif;
+    }
+    .group8 .container .desc-panel .desc {
+        font: 23px "Open-Sans-Light";
+    }
+    .group8 .container .form-panel form .text, 
+    .group8 .container .form-panel form .submit {
+        height: 55px;
+    }
+    .group8 .container .leaf-left {
+        bottom: -435px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .group1 .container .picture {
+        width: 700px;
+        height: 700px;
+    }
+    .group2 .container > .title {
+        font: 4rem "Reey";
+    }
+    .group2 .container > .desc h2 {
+        font: 21px 'Open Sans', sans-serif;
+    }
+    .group3 .container .title {
+        font: 65px "Reey";
+    }
+    .group4 .container .picture, 
+    .group5 .container .picture {
+        width: 400px;
+        height: 400px;
+    } 
+    .group4 .container .content .title,
+    .group5 .container .content .title {
+        font: bold 45px 'Open Sans', sans-serif;
+    }
+    .group4 .container .content .desc,
+    .group5 .container .content .desc {
+        font: 100 21px "Open-Sans-Medium";
+    }
+    .group6 .container .title {
+        font: 50px "Reey";
+    }
+    .group6 .container .desc-panel h2 {
+        font: 22px 'Montserrat', sans-serif;
+    }
+    .group4 .container .content {
+        margin-top: 85px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .group6 .pizza {
+        width: 700px;
+        height: 700px;
+    }
+    .group6 .pizza .little-pizza {
+        width: 310px;
+        height: 244px;
+        left: 0;
+        bottom: 100px;
+    }
+    .group1 .container .picture {
+        width: 600px;
+        height: 600px;
+    }
+    .group6 .container .right-leaf {
+        width: 500px;
+        height: 500px;
+    }
+    .group6 .container .left-leaf {
+        width: 350px;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .group2 .container > .title {
+        font: 3.5rem "Reey";
+    }
+    .group2 .container > .desc h2 {
+        font: 19px 'Open Sans', sans-serif;
+    }
+    .group4 .container .picture, 
+    .group5 .container .picture {
+        width: 350px;
+        height: 350px;
+    } 
+    .group4 .container .content .title,
+    .group5 .container .content .title {
+        font: bold 40px 'Open Sans', sans-serif;
+    }
+    .group4 .container .content .desc,
+    .group5 .container .content .desc {
+        font: 100 18px "Open-Sans-Medium";
+    }
+    .group4 .container .content .button, 
+    .group5 .container .content .button {
+        width: 300px;
+        height: 60px;
+    }
+    .group2 .container .show-more .show-more-button {
+        width: 270px;
+        height: 60px;
+    }
+    .group4 .container .content .button a,
+    .group5 .container .content .button a {
+        font: bold 26px 'Open Sans', sans-serif;
+    }
+    .group5 {
+        min-height: 650px;
+    }
+    .group5 .container .content {
+        margin-top: 60px;
+    }
+    .group4 {
+        min-height: 650px;
+    }
+    .group6 .container .right-leaf {
+        right: -140px;
+        height: 400px;
+        width: 400px;
+    }
+    .group6 .container .left-leaf {
+        width: 300px;
+        height: 300px;
+    }
+    .group6 .pizza {
+        width: 600px;
+        height: 600px;
+    }
+    .group6 .pizza .little-pizza {
+        width: 251px;
+        height: 229px;
+        left: 0;
+        bottom: 70px;
+    }
+    .group6 {
+        min-height: 1000px;
+    }
+    .group8 .container .leaf-right {
+        width: 250px;
+        height: 250px;
+    }
+    .group8 .container .title {
+        font: 55px 'Open Sans', sans-serif;
+    }
+    .group8 .container .form-panel form .text {
+        width: 600px;
+    }
+    .group9 {
+        padding-top: 200px;
+    }
+    .copyright {
+        margin-top: 110px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .group1 .container header nav .burger-menu {
+        display: block;
+    }
+    .group1 {
+        min-height: 950px;
+    }
+    .group1 .container .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .group1 .container .content .title,
+    .group1 .container .content .smallDesc {
+        max-width: 87%;
+    }
+    .group1 .container .content .desc {
+        width: 87%;
+    }
+    .group1 .container .content .title {
+        margin-top: 30px;
+    }
+    .group1 .container .content .desc {
+        text-align: center;
+    }
+    .group1 .container .picture {
+        position: static;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 30px;
+    }
+    .group1 .container header {
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 0;
+    }
+    .group1 .container header form {
+        right: 0;
+        margin-top: 30px;
+        order: -1;
+        margin-bottom: 20px;
+    }
+    .group1 .container header form #search {
+        margin-left: 0;
+    }
+    .group1 .container header nav ul {
+        flex-direction: column;
+        height: 0;
+        overflow: hidden;
+        transition: 1s;
+    }
+    .group1 .container header nav ul li {
+        margin-bottom: 10px;
+    }
+    .group1 .container header nav ul li a {
+        font: 22px 'Open Sans', sans-serif;
+    }
+    .group8 .container .form-panel form .text {
+        width: 530px;
+    }
+    .group8 .container .leaf-left {
+        bottom: -343px;
+        left: -75px;
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+    .group8 {
+        min-height: 850px;
+    }
+    .group9 .container .content {
+        margin-left: 0;
+    }
+    .group1 .container .content .title {
+        font: 4.5rem Reey;
+    }
+    .group3 .container .title {
+        font: 60px "Reey";
+    }
+    .group1 .container header {
+        margin-bottom: 40px;
+    }
+    .group1 .container header form {
+        margin-bottom: 40px;
+    }
+    .group9 .container .content {
+        justify-content: center;
+    }
+    .group9 .container .content .item1 {
+        margin-right: 0;
+    }
+    .group2 .container .items .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .group2 .container .items .item h2 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 850px) {
+    .group2 .container .items .item img {
+        width: 300px;
+        height: 300px;
+    }
+    .group6 .container .title {
+        font: 40px "Reey";
+    }
+    .group6 .container .desc-panel h2 {
+        font: 19px 'Montserrat', sans-serif;
+    }
+}
+@media screen and (max-width: 810px) {
+    .group4 .container,
+    .group5 .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .group4 .container .picture, .group5 .container .picture {
+        order: -1;
+    }
+    .group8 .container .form-panel form .text {
+        width: 460px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .group6 .container .right-leaf {
+        right: -139px;
+        height: 300px;
+        width: 300px;
+    }
+    .group6 .container .left-leaf {
+        top: 204px;
+        width: 250px;
+        height: 250px;
+    }
+    .group8 .container .form-panel form .text {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .group3 .container .content .span-block {
+        width: 260px;
+    }
+    .group8 .container .form-panel form {
+        margin-right: 60px;
+    }
+    .group8 .container .form-panel form .text {
+        width: 340px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .group2 .container > .title {
+        font: 3rem "Reey";
+    }
+    .group6 .container .right-leaf {
+        top: -240px;
+        right: -122px;
+        height: 250px;
+        width: 250px;
+    }
+    .group6 .container .left-leaf {
+        width: 220px;
+        height: 220px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .group1 .container .content .title {
+        font: 4rem Reey;
+    }
+    .group1 .container .picture {
+        width: 500px;
+        height: 500px;
+    }
+    .group6 .pizza {
+        width: 400px;
+        height: 400px;
+        margin-top: 150px;
+    }
+    .group6 .pizza .little-pizza {
+        width: 175px;
+        height: 137px;
+        left: 0;
+        bottom: 55px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .group2 .container > .title {
+        font: 2.5rem "Reey";
+    }
+    .group3 .container .title {
+        font: 50px "Reey";
+    }
+    .group8 .container .form-panel form .submit {
+        width: 185px;
+    }
+    .group8 .container .form-panel form .text {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .group4 .container .picture, .group5 .container .picture {
+        width: 300px;
+    }
+    .group4 .container .content .title, .group5 .container .content .title {
+        font: bold 33px 'Open Sans', sans-serif;
+    }
+    .group1 .container .content .title {
+        font: 3.5rem Reey;
+    }
+    .group1 .container .picture {
+        width: 400px;
+        height: 400px;
+    }
+    .group8 .container .form-panel form .text {
+        width: 250px;
+        font: 20px "Open-Sans-Light";
+        text-indent: 20px;
+    }
+    .group8 .container .form-panel form .submit {
+        width: 150px;
+        font: 20px 'Open Sans', sans-serif;
+    }
+}
+@media screen and (max-width: 400px) {
+    .group1 .container .content .title {
+        font: 3rem Reey;
+    }
+    .group2 .container > .title {
+        font: 2.1rem "Reey";
+    }
+    .group5 .container .content {
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+    .group2 .container .items .item img {
+        width: 250px;
+        height: 250px;
+    }
+    .group4 .container .picture, .group5 .container .picture {
+        width: 250px;
+        height: 250px;
+    }
+    .group6 .pizza {
+        margin-top: 205px;
+        width: 350px;
+        height: 350px;
+    }
+    .group6 .pizza .little-pizza {
+        width: 141px;
+        height: 137px;
+        left: 10px;
+        bottom: 45px;
+    }       
+    .group6 .container .left-leaf {
+        top: 330px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .group8 .container .form-panel form .text {
+        width: 230px;
+    }
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Reey";
+    src: url(fonts/Reey-Regular.otf);
+}
+@font-face {
+    font-family: "Open-Sans-Italic";
+    src: url(fonts/OpenSans-LightItalic.ttf);
+}
+@font-face {
+    font-family: "Open-Sans-Light";
+    src: url(fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: "Open-Sans-Medium";
+    src: url(fonts/OpenSans-Medium.ttf);
+}
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url(fonts/Montserrat-SemiBold.ttf);
+}

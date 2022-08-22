@@ -1,0 +1,747 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.copyright {
+    color: #343434;
+    display: block;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+    font: 1.5rem "Open-Sans-Medium";
+    margin-top: 55px;
+    padding: 0 20px;
+}
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.group1 {
+    width: 100%;
+    min-height: 1055px;
+    background: url(Images/Group_1/Background1.jpg) center / cover;
+    padding-top: 45px;
+}
+.group1 .container header {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding-right: 45px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.group1 .container header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.group1 .container header nav .burger-menu {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: none;
+}
+.group1 .container header nav .burger-menu .item {
+    width: 60px;
+    height: 7px;
+    background: #fff;
+    box-shadow: 0 0 3px #000;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.group1 .container header nav .burger-menu.active ~ .group1 .container header nav ul {
+    height: auto;
+}
+.group1 .container header nav .burger-menu.active .item:nth-child(1) {
+    opacity: 0;
+}
+.group1 .container header nav .burger-menu.active .item:nth-child(2) {
+    transform: rotate(45deg);
+}
+.group1 .container header nav .burger-menu.active .item:nth-child(3) {
+    transform: rotate(-45deg) translate(10px, -12px);
+}
+.group1 .container header nav ul {
+    display: flex;
+}
+.group1 .container header nav ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+.group1 .container header nav ul li a {
+    letter-spacing: 3px;
+    color: #fff;
+    font: 16px 'Open Sans', sans-serif;
+    text-decoration: none;
+    position: relative;
+}
+.group1 .container header nav ul li a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    left: 0;
+    bottom: -10px;
+    transform: scaleX(0);
+    transition: 0.3s;
+    border-radius: 1px;
+}
+.group1 .container header nav ul li a:hover::before {
+    transform: scaleX(1);
+}
+.group1 .container header form {
+    position: relative;
+}
+.group1 .container header form #search {
+    width: 185px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font: 1.2em cursive;
+    text-indent: 10px;
+    margin-left: 60px;
+    padding-right: 65px;
+}
+.group1 .container header form #search::-webkit-search-cancel-button {
+    display: none;
+}
+.group1 .container header form label {
+    width: 30px;
+    height: 30px;
+    right: 30px;
+    top: 10px;
+    background: url(Images/Group_1/Search.png) center / contain;
+    position: absolute;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.group1 .container .content {
+    margin-left: 105px;
+}
+.group1 .container .content .logo {
+    width: 140px;
+    height: 110px;
+    background: url(Images/Group_1/your-logo.png) no-repeat center / contain;
+}
+.group1 .container .content .title {
+    font: 5rem Reey;
+    color: #fff;
+    margin-top: 20px;
+    max-width: 500px;
+}
+.group1 .container .content .smallDesc {
+    font: italic 25px 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 110px;
+    color: #fff;
+    max-width: 500px;
+}
+.group1 .container .content {
+    text-decoration: none;
+}
+.group1 .container .content .more {
+    width: 220px;
+    height: 50px;
+    background: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.group1 .container .content .more a {
+    font: 800 25px 'Open Sans', sans-serif;
+    color: #2e3034;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.group1 .container .content .more::before {
+    bottom: -30px;
+    content: '>';
+    position: absolute;
+    transform: scaleX(2) rotate(90deg);
+    font: 1em 'Open Sans', sans-serif;
+    transition: 0.3s;
+    left: 50%;
+}
+.group1 .container .content .more:hover::before {
+    bottom: -5px;
+}
+.group1 .container .content .desc {
+    font: 400 21px "Open-Sans-Italic";
+    width: 480px;
+    color: #fff;
+}
+.group1 .container .picture {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    pointer-events: none;
+}
+/* GROUP 2 */
+.group2 {
+    width: 100%;
+    min-height: 1116px;
+    background: #fff;
+    padding-top: 70px;
+}
+.group2 .container > .title {
+    font: 4.4rem "Reey";
+    text-align: center;
+    color: #222328;
+}
+.group2 .container > .desc {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.group2 .container > .desc h2 {
+    text-align: center;
+    font: 23px 'Open Sans', sans-serif;
+    width: 720px;
+    color: #2f3135;
+    margin-bottom: 80px;
+}
+.group2 .container .items {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+    padding: 0 30px;
+}
+.group2 .container .items .item {
+    width: 350px;
+    min-height: 500px;
+    cursor: pointer;
+    transition: 0.3s;
+} 
+.group2 .container .items .item:hover {
+    transform: scale(1.025);
+}
+.group2 .container .items .item img {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    filter: drop-shadow(5px 30px 10px rgba(0, 0, 0, 0.4));
+}
+.group2 .container .items .item h1 {
+    color: #343434;
+    font: bold 29px 'Open Sans', sans-serif;
+    margin-top: 35px;
+}
+.group2 .container .items .item h2 {
+    font: 23px 'Open Sans', sans-serif;
+    color: #343434;
+    margin-top: 35px;
+}
+.group2 .container .show-more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.group2 .container .show-more .show-more-button {
+    width: 335px;
+    height: 77px;
+    background: #343434;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.group2 .container .show-more .show-more-button a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: bold 23px 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+.group2 .container .show-more .show-more-button a:hover {
+    letter-spacing: 4px;
+}
+/* GROUP 3 */
+.group3 {
+    width: 100%;
+    min-height: 560px;
+    background: #27292c;
+    position: relative;
+    padding-top: 100px;
+}
+.group3 .container .title {
+    color: #fff;
+    font: 75px "Reey";
+    text-align: center;
+    padding: 0 20px;
+}
+.group3 .container .content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    gap: 60px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+.group3 .container .content .span-block {
+    width: 400px;
+}
+.group3 .container .content .span-block span {
+    font: 16px 'Montserrat', sans-serif;
+    color: #fff;
+    max-width: 500px;
+}
+.group3 .container .showmore {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.group3 .container .showmore .button {
+    width: 270px;
+    height: 60px;
+    background: #fff;
+    border-radius: 30px;
+    margin-bottom: 70px;
+}
+.group3 .container .showmore .button a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 900 26px "Montserrat-SemiBold";
+    color: #27292c;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.group3 .container .showmore .button a:hover {
+    letter-spacing: 2px;
+}
+/* GROUP 4 */
+.group4 {
+    min-height: 790px;
+    background-color: #fff;
+}
+.group4 .container {
+    display: flex;
+}
+.group4 .container .picture {
+    width: 620px;
+    height: 620px;
+    margin-top: 50px;
+    object-fit: contain;
+    margin-left: 50px;
+    filter: drop-shadow(5px 30px 10px rgba(0, 0, 0, 0.4));
+}
+.group4 .container .content {
+    max-width: 580px;
+    margin-top: 160px;
+    margin-left: 50px;
+    padding-right: 20px;
+}
+.group4 .container .content .title {
+    color: #27292c;
+    font: bold 58px 'Open Sans', sans-serif;
+    margin-bottom: 50px;
+}
+.group4 .container .content .desc {
+    color: #27292c;
+    font: 100 29px "Open-Sans-Medium";
+    margin-bottom: 55px;
+}
+.group4 .container .content .button {
+    width: 340px;
+    height: 70px;
+    background: #27292c;
+    border-radius: 40px;
+}
+.group4 .container .content .button a {
+    color: #fff;
+    font: bold 29px 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    transition: 0.3s;
+}
+.group4 .container .content .button a:hover {
+    letter-spacing: 7px;
+}
+/* GROUP 5 */
+
+.group5 {
+    min-height: 790px;
+    background-color: #fff;
+    padding: 20px;
+}
+.group5 .container {
+    display: flex;
+}
+.group5 .container .picture {
+    width: 620px;
+    height: 620px;
+    margin-top: 50px;
+    object-fit: contain;
+    margin-left: 50px;
+    filter: drop-shadow(5px 30px 10px rgba(0, 0, 0, 0.4));
+}
+.group5 .container .content {
+    max-width: 580px;
+    margin-top: 160px;
+    margin-left: 50px;
+}
+.group5 .container .content .title {
+    color: #27292c;
+    font: bold 58px 'Open Sans', sans-serif;
+    margin-bottom: 50px;
+}
+.group5 .container .content .desc {
+    color: #27292c;
+    font: 100 29px "Open-Sans-Medium";
+    margin-bottom: 55px;
+}
+.group5 .container .content .button {
+    width: 340px;
+    height: 70px;
+    background: #27292c;
+    border-radius: 40px;
+}
+.group5 .container .content .button a {
+    color: #fff;
+    font: bold 29px 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    transition: 0.3s;
+}
+.group5 .container .content .button a:hover {
+    letter-spacing: 7px;
+}
+/* GROUP 6 */
+.group6 {
+    min-height: 1085px;
+    background: url(Images/Group_1/Background1.jpg) center / cover;
+    padding-top: 130px;
+    padding: 130px 30px 20px;
+}
+.group6 .container .left-leaf {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    top: 150px;
+    left: -100px;
+}
+.group6 .container .right-leaf {
+    position: absolute;
+    right: -200px;
+    width: 700px;
+    height: 700px;
+    top: -300px;
+    object-fit: contain;
+}
+.group6 .container .title {
+    color: #fff;
+    font: 58px "Reey";
+    text-align: center;
+    z-index: 1;
+}
+.group6 .container .desc-panel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 70px;
+    z-index: 1;
+}
+.group6 .container .desc-panel h2 {
+    color: #fff;
+    font: 25px 'Montserrat', sans-serif;
+    width: 700px;
+    text-align: center;
+}
+.group6 .container .hr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.group6 .container .hr hr {
+    width: 160px;
+    height: 10px;
+    background-color: #fff;
+    margin-top: 45px;
+}
+.group6 .pizza {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    margin-left: 400px;
+    top: 200px;
+    pointer-events: none;
+}
+.group6 .pizza .pizza-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.group6 .pizza .little-pizza {
+    width: 470px;
+    height: 350px;
+    left: 0;
+    bottom: 90px;
+    transform: rotate(2deg);
+    position: absolute;
+    object-fit: contain;
+}
+/* width: 470px; // FOR SCROLL
+    height: 350px;
+    left: -100px;
+    bottom: -10px;
+    transform: rotate(2deg); */
+
+/* GROUP 7 */
+.group7 {
+    min-height: 865px;
+    background: #fff;
+    padding-top: 180px;
+}
+.group7 .container {
+    padding: 20px;
+}
+.group7 .container .about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    margin-bottom: 225px;
+    padding: 0 20px;
+}
+.group7 .container .about .item {
+    max-width: 300px;
+}
+.group7 .container .about .item .title {
+    text-align: center;
+    font: 41px "Reey";
+    color: #393939;
+}
+.group7 .container .about .item .desc {
+    color: #333d42;
+    font: 18px "Open-Sans-Light";
+    margin-top: 40px;
+}
+.group7 .container .desc-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.group7 .container .desc-bottom h2 {
+    max-width: 800px;
+    color: #3f3f3f;
+    font: bold 25px "Open-Sans-Medium";
+    text-align: center;
+}
+.group7 .container .mini-desc {
+    color: #3f3f3f;
+    font: bold 24px "Open-Sans-Medium";
+    text-align: center;
+}
+/* GROUP 8 */
+.group8 {
+    width: 100%;
+    min-height: 900px;
+    background: #27292c;
+    padding-top: 230px;
+}
+.group8 .container .title {
+    font: 75px 'Open Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.group8 .container .desc-panel {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.group8 .container .desc-panel .desc {
+    color: #fff;
+    max-width: 900px;
+    text-align: center;
+    font: 29px "Open-Sans-Light";
+}
+.group8 .container .form-panel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.group8 .container .form-panel form {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.group8 .container .form-panel form .text {
+    width: 660px;
+    height: 65px;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color: #54524f;
+    font: 25px "Open-Sans-Light";
+    text-indent: 40px;
+    padding-right: 120px;
+}
+.group8 .container .form-panel form .text::-webkit-input-placeholder {
+    color: #54524f;
+    font: 25px "Open-Sans-Light";
+}
+.group8 .container .form-panel form .submit {
+    width: 225px;
+    height: 65px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #54524f;
+    font: 25px 'Open Sans', sans-serif;
+    color: #fff;
+    position: absolute;
+    transform: translateX(50%);
+}
+.group8 .container .leaf-left {
+    position: absolute;
+    left: 0;
+    bottom: -470px;
+}
+.group8 .container .leaf-right {
+    position: absolute;
+    right: 0;
+    top: -290px;
+}
+/* GROUP 9 */
+.group9 {
+    min-height: 980px;
+    background: #fff;
+    padding-top: 330px;
+}
+.group9 .container .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 80px;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.group9 .container .content .item1 {
+    max-width: 470px;
+    margin-right: 160px;
+}
+.group9 .container .content .item1 .links {
+    display: flex;
+    margin-top: 30px;
+}
+.group9 .container .content .item1 .links .item {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.group9 .container .content .item1 .links .item img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.group9 .container .content .item1 .desc {
+    font: 23px 'Montserrat', sans-serif;
+    color: #343434;
+    word-break: break-all;
+}
+.group9 .container .content .item .title {
+    font: bold 31px 'Montserrat', sans-serif;
+    margin-bottom: 35px;
+}
+.group9 .container .content .item ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.group9 .container .content .item ul li a {
+    font: 23px 'Montserrat', sans-serif;
+    color: #343434;
+    text-decoration: none;
+    position: relative;
+}
+.group9 .container .content .item ul li a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    left: 0;
+    bottom: -10px;
+    transform: scaleX(0);
+    transition: 0.3s;
+    border-radius: 1px;
+}
+.group9 .container .content .item ul li a:hover::before {
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
